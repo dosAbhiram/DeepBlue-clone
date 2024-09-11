@@ -72,7 +72,7 @@ function Header() {
       <nav className="navbar">
         <div className="logo">
           <a href="#">
-            <img src="/logo.WEBP" alt="Logo" />
+            <img src="logo.WEBP" alt="Logo" />
           </a>
         </div>
         <ul className="nav-links">
