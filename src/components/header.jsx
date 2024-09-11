@@ -68,7 +68,11 @@ function Header() {
   };
 
   return (
-    <header>
+    <motion.header
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.8 }}
+    >
       <nav className="navbar">
         <div className="logo">
           <a href="#">
@@ -145,7 +149,7 @@ function Header() {
           <img src="/down.png" alt="Scroll Down" />
         </button>
       </div>
-    </header>
+    </motion.header>
   );
 }
 

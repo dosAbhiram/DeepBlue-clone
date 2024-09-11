@@ -10,7 +10,7 @@ function Section2() {
       <motion.h1
         initial={{ opacity: 0 }}
         animate={isInView ? { opacity: 1 } : {}}
-        transition={{ delay: 0.5, duration: 0.7 }}
+        transition={{ duration: 0.7 }}
       >
         Our Capabilities
       </motion.h1>
@@ -19,7 +19,7 @@ function Section2() {
           className="part"
           initial={{ x: "-100vw" }}
           animate={isInView ? { x: 0 } : {}}
-          transition={{ duration: 0.7, ease: "linear" }}
+          transition={{ duration: 0.5, ease: "linear" }}
         >
           <div className="card">
             <h2>Custom Web Design</h2>
@@ -47,7 +47,7 @@ function Section2() {
           className="part"
           initial={{ x: "-100vw" }}
           animate={isInView ? { x: 0 } : {}}
-          transition={{ delay: 0.7, duration: 0.7, ease: "linear" }}
+          transition={{ delay: 0.5, duration: 0.5, ease: "linear" }}
         >
           <div className="card">
             <h2>AI-Powered Design</h2>
@@ -76,7 +76,7 @@ function Section2() {
           className="part"
           initial={{ x: "-100vw" }}
           animate={isInView ? { x: 0 } : {}}
-          transition={{ delay: 1.4, duration: 0.7, ease: "linear" }}
+          transition={{ delay: 1, duration: 0.5, ease: "linear" }}
         >
           <div className="card">
             <h2>Responsive Web Design</h2>
